@@ -28,13 +28,13 @@ Shape: (32, 32, 3) - This corresponds to the dimensions of the CIFAR-10 images (
 
 * # Hidden Layer:
 * Convolutional Layer:
- - Filters: 32
- - Kernel/Filter Size: (3, 3)
- - Activation Function: ReLU
+    - Filters: 32
+    - Kernel/Filter Size: (3, 3)
+    - Activation Function: ReLU
 * Pooling Layer:
- - MaxPooling with a pool size of (2, 2)
+    - MaxPooling with a pool size of (2, 2)
 * Flatten Layer:
- - It flattens the input into a 1D array (Vector form)
+    - It flattens the input into a 1D array (Vector form)
 
 * # Output Layer:
 * Dense Layer:
