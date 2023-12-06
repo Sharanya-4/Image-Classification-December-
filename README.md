@@ -6,11 +6,12 @@ This repository contains code for image classification using the CIFAR-10 datase
 The goal of this project is to build and train a deep learning model that can accurately classify these images into their respective categories.
 
 # Prerequisites
-Python 3.x
-TensorFlow
-Keras
-Matplotlib
-NumPy
+
+- Python 3.x
+- TensorFlow
+- Keras
+- Matplotlib
+- NumPy
 
 # Dataset
 Download the CIFAR-10 dataset from the official website or use the provided script:
