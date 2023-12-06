@@ -22,6 +22,29 @@ Download the CIFAR-10 dataset from the official website or use the provided scri
 # Model Architecture
 The model architecture consists of simple artificial neural networks which consists of conv2D layers, MaxPooling layers, Flattern Layers and Dense Layers.
 
+# NETWORK TOPOLOGY 
+* # Input Layer:
+Shape: (32, 32, 3) - This corresponds to the dimensions of the CIFAR-10 images (32 pixels in height, 32 pixels in width, and 3 color channels for RGB).
 
+* # Hidden Layer:
+* Convolutional Layer:
+ - Filters: 32
+ - Kernel/Filter Size: (3, 3)
+ - Activation Function: ReLU
+* Pooling Layer:
+ - MaxPooling with a pool size of (2, 2)
+* Flatten Layer:
+ - It flattens the input into a 1D array (Vector form)
 
+* # Output Layer:
+* Dense Layer:
+  - Neurons: 10 (equal to the number of classes in CIFAR-10)
+  - Activation Function: Softmax
+ 
+# Weights:
+The weights for the convolutional layer are initialized randomly and updated during training. 
+The dense layer has weights connecting the flattened output of the previous layer to the 10 output neurons. 
 
+# Activation functions:
+* Convolutional Layer : ReLu
+* Output Layer: Softmax 
