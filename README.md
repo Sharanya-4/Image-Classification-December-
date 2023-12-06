@@ -16,8 +16,8 @@ The goal of this project is to build and train a deep learning model that can ac
 # Dataset
 Download the CIFAR-10 dataset from the official website or use the provided script:
 
-Code: from tensorflow.keras.datasets import cifar10
-Link: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+* Code: from tensorflow.keras.datasets import cifar10
+* Link: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 
 # Model Architecture
 The model architecture consists of simple artificial neural networks which consists of conv2D layers, MaxPooling layers, Flattern Layers and Dense Layers.
